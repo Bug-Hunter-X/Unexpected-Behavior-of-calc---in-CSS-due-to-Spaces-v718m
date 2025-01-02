@@ -1,0 +1,12 @@
+The CSS property `calc()` is used to perform calculations within CSS. However, if there are spaces between the operators and operands in the `calc()` function, it can lead to unexpected results or parsing errors. For example, the following code will cause an error:
+```css
+div {
+  width: calc( 100px + 50px );
+}
+```
+The correct way to use the `calc()` function is without spaces between the operators and operands:
+```css
+div {
+  width: calc(100px + 50px);
+}
+```
