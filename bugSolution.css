@@ -1,0 +1,22 @@
+The corrected version of the CSS code is as follows:
+```css
+div {
+  width: calc(100px + 50px);
+}
+```
+In this corrected version, there are no spaces between the operators (+) and operands (100px and 50px).  This ensures that the browser can correctly parse and evaluate the calculation, resulting in a `width` of 150px for the `div` element. 
+
+Another example illustrating potential issues:
+
+Incorrect:
+```css
+.element {
+  height: calc( 100vh - 10px );
+}
+```
+Correct:
+```css
+.element {
+  height: calc(100vh - 10px);
+}
+```
